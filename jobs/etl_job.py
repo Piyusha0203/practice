@@ -130,7 +130,7 @@ def create_test_data(spark, config):
         Row(id=7, first_name='Phil', second_name='Bird', floor=4),
         Row(id=8, first_name='Kim', second_name='Suter', floor=4)
     ]
-
+#creating a comment
     df = spark.createDataFrame(local_records)
 
     # write to Parquet file format
